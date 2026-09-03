@@ -2619,8 +2619,9 @@ class LaCrosseTX141THBv2Packet(Packet):
 class LaCrosseTXPacket(Packet):
     # {"time" : "2017-07-30 21:11:19", "model" : "LaCrosse TX Sensor", "id" : 127, "humidity" : 34.000}
     # {"time" : "2017-07-30 21:11:19", "model" : "LaCrosse TX Sensor", "id" : 127, "temperature_C" : 27.100}
+    # {"time" : "2026-09-03 19:27:42", "model" : "LaCrosse-TX", "id" : 55, "temperature_C" : 28.600, "mic" : "PARITY"}
 
-    IDENTIFIER = "LaCrosse TX Sensor"
+    IDENTIFIER = "LaCrosse-TX"
 
     @staticmethod
     def parse_json(obj):
